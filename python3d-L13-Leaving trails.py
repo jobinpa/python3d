@@ -4,9 +4,9 @@ import numpy as np
 arrowL = 2
 arrowT = 0.02
 
-xArrow = arrow(axis=vector(1, 0, 0), color=color.red, length=arrowL, shaftwidth = arrowT)
-yArrow = arrow(axis=vector(0, 1, 0), color=color.green, length=arrowL, shaftwidth = arrowT)
-zArrow = arrow(axis=vector(0, 0, 1), color=color.blue, length=arrowL, shaftwidth = arrowT)
+xArrow = arrow(axis=vector(1, 0, 0), color=color.red, length=arrowL, shaftwidth=arrowT)
+yArrow = arrow(axis=vector(0, 1, 0), color=color.green, length=arrowL, shaftwidth=arrowT)
+zArrow = arrow(axis=vector(0, 0, 1), color=color.blue, length=arrowL, shaftwidth=arrowT)
 
 # WARNING: Changing arrow axis after creation resets the arrow length
 
@@ -20,9 +20,9 @@ theta = (2 * np.pi) * (degrees/360)
 arrowX = arrowL * np.cos(theta)
 arrowY = arrowL * np.sin(theta)
 pntArrow = arrow(
-    axis=vector(arrowX, arrowY, 0), 
-    color=color.orange, 
-    length=arrowL, 
+    axis=vector(arrowX, arrowY, 0),
+    color=color.orange,
+    length=arrowL,
     shaftwidth=arrowT * 2)
 
 ballRadius = 0.05
