@@ -9,3 +9,4 @@ The lessons have been designed around [Python 3.9.1](https://www.python.org/down
 | Package          | Version  | Notes                     |
 | :--------------- | -------: | :------------------------ |
 | vpython          | 7.6.1    |                           | 
+| mediapipe        | 0.8.9    |                           | 
